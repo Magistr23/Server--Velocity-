@@ -1,0 +1,288 @@
+[22:01:19] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Booting up Velocity 3.2.0-SNAPSHOT (git-7f776abf-b252)...
+[22:01:20] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading localizations...
+[22:01:20] [main/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Connections will use NIO channels, Java compression, Java ciphers
+[22:01:20] [main/WARN] [com.velocitypowered.proxy.config.VelocityConfiguration]: The proxy is running in offline mode! This is a security risk and you will NOT receive any support!
+[22:01:20] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loading plugins...
+[22:01:20] [main/ERROR] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Can't load plugin viabackwards due to missing dependency viaversion
+[22:01:21] [main/INFO] [limboapi]: Initializing Simple Virtual World system...
+[22:01:22] [main/INFO] [limboapi]: Hooking into EventManager, PlayerList/UpsertPlayerInfo and StateRegistry...
+[22:01:22] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin limboapi 1.1.12 by Elytrium (https://elytrium.net/)
+[22:01:22] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin limboauth 1.1.12 by Elytrium (https://elytrium.net/)
+[22:01:22] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin limbofilter 1.1.10 by Elytrium (https://elytrium.net/)
+[22:01:22] [main/INFO] [com.velocitypowered.proxy.plugin.VelocityPluginManager]: Loaded plugin snap 1.1-SNAPSHOT (build 31) by Phoenix616
+[22:01:22] [main/INFO] [com.velocitypowered.proxy.VelocityServer]: Loaded 4 plugins
+[22:01:22] [Velocity Async Event Executor - #0/INFO] [limboapi]: Creating and preparing packets...
+[22:01:23] [Velocity Async Event Executor - #0/INFO] [limboapi]: Loaded!
+[22:01:23] [Velocity Async Event Executor - #0/WARN] [net.elytrium.limboapi.thirdparty.commons.config.YamlConfig]: Unable to load some of the config options. File was copied to config.yml_backup_2023-05-18_22.01.23
+[22:01:24] [Velocity Async Event Executor - #0/INFO] [limbofilter]: Current captcha generator settings will consume 0,69GB RAM normally and 1,37GB RAM on reloads
+[22:01:24] [Velocity Async Event Executor - #0/INFO] [limbofilter]: Modify the config to decrease RAM consumption
+[22:01:25] [Velocity Async Event Executor - #0/INFO] [limbofilter]: Loading font font.ttf.
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Loaded snap.conf
+[22:01:28] [Velocity Async Event Executor - #0/WARN] [Snap]: ViaVersion (required by ViaBackwards) is unavailable
+[22:01:28] [Velocity Async Event Executor - #0/WARN] [Snap]: Failed to enable ViaBackwards
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for ChatEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for ClientConnectEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for ConnectionInitEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for LoginEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for PlayerDisconnectEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for PlayerHandshakeEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for PluginMessageEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for PostLoginEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for PreLoginEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for ProxyPingEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for ProxyQueryEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for ProxyReloadEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for ServerConnectedEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for ServerConnectEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for ServerDisconnectEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for ServerKickEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for ServerSwitchEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for SettingsChangedEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Registering forwarding listener for TabCompleteResponseEvent
+[22:01:28] [Velocity Async Event Executor - #0/INFO] [snap]: Loaded 0 plugins!
+[22:01:28] [Netty NIO Boss #0/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Listening on /[0:0:0:0:0:0:0:0]:28000
+[22:01:28] [main/INFO] [com.velocitypowered.proxy.Velocity]: Done (9,65s)!
+[22:01:30] [CaptchaGeneratorThread/INFO] [limbofilter]: Captcha generated in 2986 ms.
+[22:01:33] [Netty NIO Worker #0/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50605) has connected to the LimboFilter Limbo
+[22:01:34] [Netty NIO Worker #0/INFO] [limbofilter]: [connected player] g1ngerbred (/192.168.0.102:50605) has client brand vanilla
+[22:01:44] [Netty NIO Worker #0/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50605) has disconnected from the LimboFilter Limbo
+[22:01:45] [Netty NIO Worker #0/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50605) has connected to the LimboAuth Limbo
+[22:02:03] [ForkJoinPool.commonPool-worker-1/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50605) has disconnected from the LimboAuth Limbo
+[22:02:03] [Netty NIO Worker #0/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] g1ngerbred (/192.168.0.102:50605): unable to connect to server HUB
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:21000
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[22:02:03] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] g1ngerbred (/192.168.0.102:50605) has disconnected: 
+[22:02:07] [Netty NIO Worker #1/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] g1ngerbred (/192.168.0.102:50608): unable to connect to server HUB
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:21000
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[22:02:07] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] g1ngerbred (/192.168.0.102:50608) has disconnected: 
+[22:02:19] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: СЕРВЕР Успешно перезагружено!
+[22:02:22] [Netty NIO Worker #2/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50610) has connected to the LimboAuth Limbo
+[22:02:50] [Netty NIO Worker #2/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50610) has disconnected from the LimboAuth Limbo
+[22:02:50] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50610 has disconnected
+[22:02:53] [Netty NIO Worker #3/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50630) has connected to the LimboAuth Limbo
+[22:02:56] [Netty NIO Worker #3/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50630) has disconnected from the LimboAuth Limbo
+[22:02:56] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50630 has disconnected
+[22:03:06] [Velocity Async Event Executor - #3/INFO] [limbofilter]: Current captcha generator settings will consume 0,69GB RAM normally and 1,37GB RAM on reloads
+[22:03:06] [Velocity Async Event Executor - #3/INFO] [limbofilter]: Modify the config to decrease RAM consumption
+[22:03:06] [Velocity Async Event Executor - #3/INFO] [limbofilter]: Loading font font.ttf.
+[22:03:08] [Velocity Async Event Executor - #3/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: Конфигурация успешно перезагружена!
+[22:03:10] [Netty NIO Worker #4/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50651) has connected to the LimboFilter Limbo
+[22:03:11] [Netty NIO Worker #4/INFO] [limbofilter]: [connected player] g1ngerbred (/192.168.0.102:50651) has client brand vanilla
+[22:03:11] [CaptchaGeneratorThread/INFO] [limbofilter]: Captcha generated in 3443 ms.
+[22:03:30] [Netty NIO Worker #4/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50651) has disconnected from the LimboFilter Limbo
+[22:03:30] [Netty NIO Worker #4/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50651) has connected to the LimboAuth Limbo
+[22:03:59] [ForkJoinPool.commonPool-worker-1/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50651) has disconnected from the LimboAuth Limbo
+[22:03:59] [Netty NIO Worker #4/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] g1ngerbred (/192.168.0.102:50651): unable to connect to server HUB
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:21000
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[22:03:59] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] g1ngerbred (/192.168.0.102:50651) has disconnected: 
+[22:04:04] [Netty NIO Worker #5/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] g1ngerbred (/192.168.0.102:50656): unable to connect to server HUB
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:21000
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[22:04:04] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] g1ngerbred (/192.168.0.102:50656) has disconnected: 
+[22:04:16] [Velocity Async Event Executor - #2/INFO] [limbofilter]: Current captcha generator settings will consume 0,69GB RAM normally and 1,37GB RAM on reloads
+[22:04:16] [Velocity Async Event Executor - #2/INFO] [limbofilter]: Modify the config to decrease RAM consumption
+[22:04:16] [Velocity Async Event Executor - #2/INFO] [limbofilter]: Loading font font.ttf.
+[22:04:18] [Velocity Async Event Executor - #2/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: Конфигурация успешно перезагружена!
+[22:04:19] [Netty NIO Worker #6/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50658) has connected to the LimboFilter Limbo
+[22:04:20] [Netty NIO Worker #6/INFO] [limbofilter]: [connected player] g1ngerbred (/192.168.0.102:50658) has client brand vanilla
+[22:04:20] [CaptchaGeneratorThread/INFO] [limbofilter]: Captcha generated in 2886 ms.
+[22:04:33] [Netty NIO Worker #6/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50658) has disconnected from the LimboFilter Limbo
+[22:04:33] [Netty NIO Worker #6/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] g1ngerbred (/192.168.0.102:50658): unable to connect to server HUB
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:21000
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[22:04:33] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] g1ngerbred (/192.168.0.102:50658) has disconnected: 
+[22:04:46] [main/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: Этой команды не существует.
+[22:04:49] [main/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: Этой команды не существует.
+[22:04:59] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: СЕРВЕР Успешно перезагружено!
+[22:05:02] [Netty NIO Worker #7/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50660) has connected to the LimboAuth Limbo
+[22:05:11] [Netty NIO Worker #7/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50660) has disconnected from the LimboAuth Limbo
+[22:05:11] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50660 has disconnected
+[22:08:53] [Netty NIO Worker #0/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50689) has connected to the LimboAuth Limbo
+[22:08:59] [Netty NIO Worker #0/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50689) has disconnected from the LimboAuth Limbo
+[22:08:59] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50689 has disconnected
+[22:11:55] [Netty NIO Worker #1/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50712) has connected to the LimboAuth Limbo
+[22:12:01] [Netty NIO Worker #1/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50712) has disconnected from the LimboAuth Limbo
+[22:12:01] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50712 has disconnected
+[22:15:18] [Netty NIO Worker #2/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50736) has connected to the LimboAuth Limbo
+[22:15:20] [Netty NIO Worker #2/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50736) has disconnected from the LimboAuth Limbo
+[22:15:20] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50736 has disconnected
+[22:15:26] [Netty NIO Worker #3/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50755) has connected to the LimboAuth Limbo
+[22:15:28] [Netty NIO Worker #3/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50755) has disconnected from the LimboAuth Limbo
+[22:15:28] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50755 has disconnected
+[22:15:39] [Velocity Async Event Executor - #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: СЕРВЕР Успешно перезагружено!
+[22:15:41] [Netty NIO Worker #4/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50774) has connected to the LimboAuth Limbo
+[22:15:45] [Netty NIO Worker #4/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50774) has disconnected from the LimboAuth Limbo
+[22:15:45] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50774 has disconnected
+[22:16:20] [Velocity Async Event Executor - #3/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: СЕРВЕР Успешно перезагружено!
+[22:16:22] [Netty NIO Worker #5/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50797) has connected to the LimboAuth Limbo
+[22:16:25] [Netty NIO Worker #5/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50797) has disconnected from the LimboAuth Limbo
+[22:16:25] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50797 has disconnected
+[22:16:50] [Velocity Async Event Executor - #2/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: СЕРВЕР Успешно перезагружено!
+[22:16:52] [Netty NIO Worker #6/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50816) has connected to the LimboAuth Limbo
+[22:16:55] [Netty NIO Worker #6/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50816) has disconnected from the LimboAuth Limbo
+[22:16:55] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50816 has disconnected
+[22:17:03] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: СЕРВЕР Успешно перезагружено!
+[22:17:06] [Netty NIO Worker #7/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50836) has connected to the LimboAuth Limbo
+[22:17:08] [Netty NIO Worker #7/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50836) has disconnected from the LimboAuth Limbo
+[22:17:08] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50836 has disconnected
+[22:17:21] [Velocity Async Event Executor - #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: СЕРВЕР Успешно перезагружено!
+[22:17:25] [Netty NIO Worker #0/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50856) has connected to the LimboAuth Limbo
+[22:17:27] [Netty NIO Worker #0/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50856) has disconnected from the LimboAuth Limbo
+[22:17:27] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50856 has disconnected
+[22:21:23] [Velocity Async Event Executor - #3/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: АВТОРИ Успешно перезагружено!
+[22:21:25] [Netty NIO Worker #1/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50894) has connected to the LimboAuth Limbo
+[22:21:33] [Netty NIO Worker #1/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50894) has disconnected from the LimboAuth Limbo
+[22:21:33] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50894 has disconnected
+[22:23:20] [Velocity Async Event Executor - #2/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: Авторизация Успешно перезагружено!
+[22:23:25] [Netty NIO Worker #2/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50916) has connected to the LimboAuth Limbo
+[22:23:49] [Netty NIO Worker #2/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50916) has disconnected from the LimboAuth Limbo
+[22:23:49] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50916 has disconnected
+[22:24:05] [Netty NIO Worker #3/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50936) has connected to the LimboAuth Limbo
+[22:24:21] [Netty NIO Worker #3/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50936) has disconnected from the LimboAuth Limbo
+[22:24:21] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50936 has disconnected
+[22:25:23] [Velocity Async Event Executor - #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: ForорCзraft Успешно перезагружено!
+[22:25:25] [Netty NIO Worker #4/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50959) has connected to the LimboAuth Limbo
+[22:25:30] [Netty NIO Worker #4/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50959) has disconnected from the LimboAuth Limbo
+[22:25:30] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50959 has disconnected
+[22:26:28] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: ForeрCзraft Успешно перезагружено!
+[22:27:30] [Velocity Async Event Executor - #3/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: ForeCrзfa&#ffca0tft Успешно перезагружено!
+[22:27:52] [Velocity Async Event Executor - #2/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: ForeCrafa&#ffca0tft Успешно перезагружено!
+[22:28:47] [Velocity Async Event Executor - #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: ForeCaft Успешно перезагружено!
+[22:29:10] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: ForeCraft Успешно перезагружено!
+[22:29:13] [Netty NIO Worker #5/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50987) has connected to the LimboAuth Limbo
+[22:29:19] [Netty NIO Worker #5/INFO] [limboapi]: g1ngerbred (/192.168.0.102:50987) has disconnected from the LimboAuth Limbo
+[22:29:19] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:50987 has disconnected
+[22:29:30] [Velocity Async Event Executor - #3/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: ForeCraft  Успешно перезагружено!
+[22:29:32] [Netty NIO Worker #6/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51006) has connected to the LimboAuth Limbo
+[22:29:39] [Netty NIO Worker #6/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51006) has disconnected from the LimboAuth Limbo
+[22:29:39] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:51006 has disconnected
+[22:29:46] [Velocity Async Event Executor - #2/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: ForeCraft Успешно перезагружено!
+[22:29:47] [Netty NIO Worker #7/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51027) has connected to the LimboAuth Limbo
+[22:30:14] [Netty NIO Worker #7/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51027) has disconnected from the LimboAuth Limbo
+[22:30:14] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:51027 has disconnected
+[22:30:36] [Velocity Async Event Executor - #0/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: ForeCraft Успешно перезагружено!
+[22:30:37] [Netty NIO Worker #0/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51046) has connected to the LimboAuth Limbo
+[22:30:43] [Netty NIO Worker #0/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51046) has disconnected from the LimboAuth Limbo
+[22:30:43] [Netty NIO Worker #0/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:51046 has disconnected
+[22:30:57] [Velocity Async Event Executor - #1/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: ForeCraft Успешно перезагружено!
+[22:30:59] [Netty NIO Worker #1/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51067) has connected to the LimboAuth Limbo
+[22:31:07] [Netty NIO Worker #1/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51067) has disconnected from the LimboAuth Limbo
+[22:31:07] [Netty NIO Worker #1/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:51067 has disconnected
+[22:31:13] [Velocity Async Event Executor - #3/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: ForeCraft Успешно перезагружено!
+[22:31:15] [Netty NIO Worker #2/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51086) has connected to the LimboAuth Limbo
+[22:31:32] [Netty NIO Worker #2/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51086) has disconnected from the LimboAuth Limbo
+[22:31:32] [Netty NIO Worker #2/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [initial connection] /192.168.0.102:51086 has disconnected
+[22:32:31] [Velocity Async Event Executor - #2/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: ForeCraft Успешно перезагружено!
+[22:32:33] [Netty NIO Worker #3/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51106) has connected to the LimboAuth Limbo
+[22:33:26] [ForkJoinPool.commonPool-worker-9/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51106) has disconnected from the LimboAuth Limbo
+[22:33:26] [Netty NIO Worker #3/ERROR] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] g1ngerbred (/192.168.0.102:51106): unable to connect to server HUB
+io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:21000
+Caused by: java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[?:?]
+	at io.netty.channel.socket.nio.NioSocketChannel.doFinishConnect(NioSocketChannel.java:337) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.AbstractNioChannel$AbstractNioUnsafe.finishConnect(AbstractNioChannel.java:334) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:776) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:724) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:650) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:562) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30) ~[velocity.jar:3.2.0-SNAPSHOT (git-7f776abf-b252)]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+[22:33:26] [Netty NIO Worker #3/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] g1ngerbred (/192.168.0.102:51106) has disconnected: 
+[22:35:00] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] g1ngerbred -> HUB has connected
+[22:37:11] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] g1ngerbred (/192.168.0.102:51117) has disconnected
+[22:37:11] [Netty NIO Worker #4/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] g1ngerbred -> HUB has disconnected
+[22:39:20] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] g1ngerbred -> HUB has connected
+[22:39:56] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] g1ngerbred (/192.168.0.102:51166) has disconnected
+[22:39:56] [Netty NIO Worker #5/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] g1ngerbred -> HUB has disconnected
+[22:44:13] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] g1ngerbred -> HUB has connected
+[22:44:38] [main/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: Этой команды не существует.
+[22:45:28] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [connected player] g1ngerbred (/192.168.0.102:51198) has disconnected
+[22:45:28] [Netty NIO Worker #6/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] g1ngerbred -> HUB has disconnected
+[22:51:26] [Velocity Async Event Executor - #2/INFO] [limbofilter]: Current captcha generator settings will consume 0,69GB RAM normally and 1,37GB RAM on reloads
+[22:51:26] [Velocity Async Event Executor - #2/INFO] [limbofilter]: Modify the config to decrease RAM consumption
+[22:51:27] [Velocity Async Event Executor - #2/INFO] [limbofilter]: Loading font font.ttf.
+[22:51:30] [Velocity Async Event Executor - #2/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: Конфигурация успешно перезагружена!
+[22:51:35] [Velocity Async Event Executor - #3/INFO] [com.velocitypowered.proxy.console.VelocityConsole]: ForeCraft Успешно перезагружено!
+[22:51:41] [Netty NIO Worker #7/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51392) has connected to the LimboFilter Limbo
+[22:51:45] [Netty NIO Worker #7/INFO] [limbofilter]: [connected player] g1ngerbred (/192.168.0.102:51392) has client brand vanilla
+[22:51:46] [CaptchaGeneratorThread/INFO] [limbofilter]: Captcha generated in 16966 ms.
+[22:52:03] [Netty NIO Worker #7/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51392) has disconnected from the LimboFilter Limbo
+[22:52:04] [Netty NIO Worker #7/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51392) has connected to the LimboAuth Limbo
+[22:52:42] [ForkJoinPool.commonPool-worker-13/INFO] [limboapi]: g1ngerbred (/192.168.0.102:51392) has disconnected from the LimboAuth Limbo
+[22:52:42] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] g1ngerbred -> HUB has connected
+[22:54:08] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] g1ngerbred (/192.168.0.102:51392): kicked from server HUB: Server closed
+[22:54:08] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.MinecraftConnection]: [server connection] g1ngerbred -> HUB has disconnected
+[22:54:08] [Netty NIO Worker #7/INFO] [com.velocitypowered.proxy.connection.client.ConnectedPlayer]: [connected player] g1ngerbred (/192.168.0.102:51392) has disconnected: Server closed
+[22:54:17] [Thread-1/INFO] [com.velocitypowered.proxy.VelocityServer]: Shutting down the proxy...
+[22:54:17] [Thread-1/INFO] [com.velocitypowered.proxy.network.ConnectionManager]: Closing endpoint /0.0.0.0:28000

@@ -1,0 +1,5 @@
+isShown: false
+messages:
+  onJoin: "&b%PLAYER.NAME% &aвошёл."
+  onFirstJoin: "&aИгрок &b%PLAYER.NAME%&a вошёл первый раз. Добро пожаловать!"
+  onQuit: "&b%PLAYER.NAME% &cвышел."
